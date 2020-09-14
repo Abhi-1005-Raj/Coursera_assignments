@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/* Header */
+nav{
+	background-color: grey;
+}
+.navbar{
+	padding: 0px
+}
+.navbar-light{
+	border-bottom: 2px solid black;
+
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: black
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 2em;
+	margin-left: 30px;
+}
+.nav_opt{
+	background-color: white;
+	margin:0;
+	padding: 0; 
+}
+.navbar-nav{
+	text-align: center;
+	font-weight: bold;
+	background-color: white;
+}
+hr{	align-self: center;
+	height: 1px;
+	background-color: #212529;
+	width: 95%;
+	margin: 0px;
+
+}
+#chicken-top{
+	border-top: 2px solid black;
+}
+/* End Header */
+
+/* Menu */
+#menu{
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+/* Content */
+.section{
+	background-color: grey;
+	padding: 15px;
+	margin:20px 10px;
+}
+.section_head{
+	font-size: 1.3em;
+	text-align: center;	
+	font-weight: bold;
+}
+
+.row{
+	margin-right: 15px;
+  	margin-left: 15px;
+}
+/* End Content */
+.menu-div{
+	text-align: center;
+	font-weight: bold;
+}
+span{
+	font-size: 1em;
+}
+.top{
+	color: white;
+}
+.top:hover{
+	text-decoration: none;
+	background-color:black;
+	color: yellow 	
+}
+
+/* For Large Screen */
+@media(min-width: 992px){
+	.display{
+		display: none;
+	}
+	.menu-div{
+		display: none;
+	}
+	.section{
+	height: 400px;
+	}	
+}
+
+
+
+
+
+
